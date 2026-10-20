@@ -107,6 +107,7 @@ jobs:
         path: release/artifacts
 
   build-android:
+    if: false
     runs-on: ubuntu-latest
     env:
       CARGO_HTTP_MULTIPLEXING: false
