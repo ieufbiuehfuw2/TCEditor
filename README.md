@@ -7,7 +7,7 @@ What's inside of enhanced editor:
 * Group color function(LSHIFT + LMB click on groups. There are bunch of colors, just keep clicking while holding LSHIFT) If you want to remove the color use LCTRL + LMB click on group
 * Enhanced quad scaling. No more selecting all the dots to scale ur quad. Use LALT + LMB and drag the green pivot right to upscale it and drag left to downscale it
 * Bucket fill feature for game layer tiles and design tiles both. Keybind is F.
-* Path feature. If it's ON - While local server is up and you play your map, inside of editor you will see the path of your tees movement.
+* Path feature. If it's ON - While local server is up and you play your map, inside of editor you will see the path of your tees movement. Use G to clear the path and make a new one.
 * Bucket E - or bucket fill with borders. So if you want to fill the inside/outside of your map area and don't want to fill the whole map with tiles - you choose the layers that is gonna be a border for you to fill only inside/outside. If you choose ONLY mode - you will only fill the chosen layer. Fill boundaries will fill the borders as well if it's ON.
 * Hide/Show GAME group with one button.
 * Hide/Show all sound layers with one button.
