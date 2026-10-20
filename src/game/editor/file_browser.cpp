@@ -20,7 +20,8 @@
 static constexpr const char *FILETYPE_EXTENSIONS[] = {
 	".map",
 	".png",
-	".opus"};
+	".opus",
+	".json"};
 
 void CFileBrowser::ShowFileDialog(
 	int StorageType, EFileType FileType,
@@ -654,6 +655,8 @@ const char *CFileBrowser::DetermineFileFontIcon(const CFilelistItem *pItem) cons
 			return FontIcon::IMAGE;
 		case EFileType::SOUND:
 			return FontIcon::MUSIC;
+		case EFileType::PRESET:
+			return FontIcon::FILE;
 		default:
 			dbg_assert_failed("m_FileType invalid: %d", (int)m_FileType);
 		}

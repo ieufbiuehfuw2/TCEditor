@@ -21,6 +21,7 @@ public:
 		MAP,
 		IMAGE,
 		SOUND,
+		PRESET,
 	};
 	typedef bool (*FFileDialogOpenCallback)(const char *pFilename, int StorageType, void *pUser);
 

@@ -396,6 +396,27 @@ void CEnvelopeEditor::Render(CUIRect View)
 			}
 		}
 
+		// TClient: save/load envelope presets
+		// Only draw when the toolbar has room left, otherwise the buttons would
+		// overlap the buttons docked to the right and their borders would shine
+		// through the translucent button fill.
+		if(ToolBar.w > 120.0f)
+		{
+			ToolBar.VSplitLeft(5.0f, nullptr, &ToolBar);
+			ToolBar.VSplitLeft(45.0f, &Button, &ToolBar);
+			if(Editor()->DoButton_Editor(&m_SavePresetButtonId, "Save", 0, &Button, BUTTONFLAG_LEFT, "Save the selected envelope as a preset(json file in envelope_presets) for reuse in other maps."))
+			{
+				Editor()->ShowSaveEnvelopePresetDialog(pEnvelope->m_aName);
+			}
+
+			ToolBar.VSplitLeft(5.0f, nullptr, &ToolBar);
+			ToolBar.VSplitLeft(45.0f, &Button, &ToolBar);
+			if(Editor()->DoButton_Editor(&m_LoadPresetButtonId, "Load", 0, &Button, BUTTONFLAG_LEFT, "Load an envelope preset(json file) and add it to the map."))
+			{
+				Editor()->ShowLoadEnvelopePresetDialog();
+			}
+		}
+
 		ToolBar.VSplitLeft(15.0f, nullptr, &ToolBar);
 		ToolBar.VSplitLeft(40.0f, &Button, &ToolBar);
 

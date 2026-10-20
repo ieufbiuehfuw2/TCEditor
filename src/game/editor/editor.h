@@ -612,6 +612,11 @@ public:
 	static bool CallbackSaveImage(const char *pFilename, int StorageType, void *pUser);
 	static bool CallbackSaveSound(const char *pFilename, int StorageType, void *pUser);
 	static bool CallbackCustomEntities(const char *pFilename, int StorageType, void *pUser);
+	// TClient: envelope presets
+	void ShowSaveEnvelopePresetDialog(const char *pDefaultName);
+	void ShowLoadEnvelopePresetDialog();
+	static bool CallbackSaveEnvelopePreset(const char *pFilename, int StorageType, void *pUser);
+	static bool CallbackLoadEnvelopePreset(const char *pFilename, int StorageType, void *pUser);
 
 	// bulk operations on multi-selected images/sounds (TClient)
 	std::vector<int> m_vBulkExportImages;

@@ -69,6 +69,8 @@ private:
 	const char m_PrevEnvelopeButtonId = 0;
 	const char m_NextEnvelopeButtonId = 0;
 	const char m_aChannelButtonIds[CEnvPoint::MAX_CHANNELS] = {0};
+	const char m_SavePresetButtonId = 0;
+	const char m_LoadPresetButtonId = 0;
 	const char m_EnvelopeEditorId = 0;
 	CLineInput m_NameInput;
 	int m_EnvelopeEditorButtonUsed;
