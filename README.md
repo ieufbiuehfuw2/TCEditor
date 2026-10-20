@@ -1,4 +1,6 @@
+------------------------------------
 So basically this is the standard TClient, upon which I have built an enhanced version of the editor. The editor's features are presented below, followed by the original TClient README.md file. I do not claim credit for any of TClient's existing features; I have simply improved the editor to better suit the needs of mappers.
+------------------------------------
 What's inside of enhanced editor:
 * Group duplication
 * Image/Sounds multiselection(multi-export, multi-delete, multi-compress)
