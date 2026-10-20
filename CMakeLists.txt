@@ -2996,6 +2996,7 @@ if(CLIENT)
     enums.h
     envelope_editor.cpp
     envelope_editor.h
+    envelope_presets.cpp
     explanations.cpp
     explanations.h
     file_browser.cpp
