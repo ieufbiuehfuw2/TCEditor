@@ -2889,8 +2889,6 @@ if(CLIENT)
     components/tclient/mumble.h
     components/tclient/outlines.cpp
     components/tclient/outlines.h
-    components/tclient/test_path.cpp
-    components/tclient/test_path.h
     components/tclient/pet.cpp
     components/tclient/pet.h
     components/tclient/player_indicator.cpp
@@ -2907,6 +2905,8 @@ if(CLIENT)
     components/tclient/statusbar.h
     components/tclient/tclient.cpp
     components/tclient/tclient.h
+    components/tclient/test_path.cpp
+    components/tclient/test_path.h
     components/tclient/trails.cpp
     components/tclient/trails.h
     components/tclient/translate.cpp
@@ -2973,6 +2973,8 @@ if(CLIENT)
     auto_map.cpp
     auto_map.h
     automapper_builder.cpp
+    bulk_compress.cpp
+    bulk_compress.h
     component.cpp
     component.h
     editor.cpp
@@ -2984,8 +2986,6 @@ if(CLIENT)
     editor_history.h
     editor_object.cpp
     editor_object.h
-    bulk_compress.cpp
-    bulk_compress.h
     editor_props.cpp
     editor_server_settings.cpp
     editor_server_settings.h
