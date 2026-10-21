@@ -2,12 +2,12 @@
 So basically this is the standard TClient, upon which I have built an enhanced version of the editor. The editor's features are presented below, followed by the original TClient README.md file. I do not claim credit for any of TClient's existing features; I have simply improved the editor to better suit the needs of mappers.
 ------------------------------------
 What's inside of enhanced editor:
-* Group duplication
+* Group duplication.
 * Image/Sounds multiselection(multi-export, multi-delete, multi-compress)
 * Built-in editor file compressor(images/sounds)
 * Ingame image crop function(you select a part of the image and this cropped part becoming a whole new image)
-* Group color function(LSHIFT + LMB click on groups. There are bunch of colors, just keep clicking while holding LSHIFT) If you want to remove the color use LCTRL + LMB click on group
-* Enhanced quad scaling. No more selecting all the dots to scale ur quad. Use LALT + LMB and drag the green pivot right to upscale it and drag left to downscale it
+* Group color function(LSHIFT + LMB click on groups. There are bunch of colors, just keep clicking while holding LSHIFT) If you want to remove the color use LCTRL + LMB click on group.
+* Enhanced quad scaling. No more selecting all the dots to scale ur quad. Use LALT + LMB and drag the green pivot right to upscale it and drag left to downscale it.
 * Bucket fill feature for game layer tiles and design tiles both. Keybind is F.
 * Path feature. If it's ON - While local server is up and you play your map, inside of editor you will see the path of your tees movement. Use G to clear the path and make a new one.
 * Bucket E - or bucket fill with borders. So if you want to fill the inside/outside of your map area and don't want to fill the whole map with tiles - you choose the layers that is gonna be a border for you to fill only inside/outside. If you choose ONLY mode - you will only fill the chosen layer. Fill boundaries will fill the borders as well if it's ON.
@@ -16,6 +16,7 @@ What's inside of enhanced editor:
 * Visual automapper feature(WIP). No more automapper coding.
 * Download the tilesets/quads right from teedata inside of your map. No browser needed, only editor.
 * Last map you worked on will be remembered and opened after you close/restart client. The same position you looked on will be restored.
+* Envelope presets
 ------------------------------------
 All the code was written by AI. I can't code, I can only make maps and store ideas inside of my brain.
 If you will have any issues feel free to write me in discord @wee.tw
